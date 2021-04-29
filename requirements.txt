@@ -1,0 +1,16 @@
+# alternative to installing the nvidia-pyindex package
+--extra-index-url https://pypi.ngc.nvidia.com
+# base ----------------------------------------
+nvidia-pyindex
+nvidia-tensorrt
+pycuda
+pycocotools
+numpy>=1.18.5
+opencv-python>=4.1.2
+tqdm>=4.41.0
+tensorboard>=2.4.1
+tensorboardX
+pyyaml>=5.3.1
+webcolors
+torch>=1.7
+torchvision>=0.8.1
